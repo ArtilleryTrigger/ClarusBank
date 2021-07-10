@@ -23,7 +23,7 @@
           id="logo"
         />
         <ul class="nav__links">
-          <li class="nav__item">
+          <li class="nav__item" onclick = "sayHello()">
             <a class="nav__link" href="#section--1">Features</a>
           </li>
           <li class="nav__item">
@@ -350,5 +350,39 @@
     <div class="overlay hidden"></div>
 
     <script src="script.js"></script>
+    <script>
+      const navbarItem1 = document.getElementsByClassName('nav__item')[0];
+      const navbarItem2 = document.getElementsByClassName('nav__item')[1];
+      const navbarItem3 = document.getElementsByClassName('nav__item')[2];
+      
+      const h1 = document.querySelector("h1")
+      /*const highlightSpan = h1.querySelectorAll(".highlight");
+      h1.firstElementChild.style.color = 'red';
+      h1.lastElementChild.style.color = 'blue';
+      h1.closest(".header").style.backgroundColor = "yellow";
+      console.log(highlightSpan);*/
+      
+      /*window.onload = () => {
+        alert("Welcome!");
+      }
+      window.onload = function(){
+        alert("Welcome!");
+      }
+      window.addEventListener("load", function(){
+        alert("Welcome!");
+      });
+      window.addEventListener("load", () => {
+        alert("Welcome!");
+      });*/
+
+      /*navbarItem1.onclick = function () {alert("Hello!");}
+      navbarItem1.addEventListener("click", () => alert("Hello2"))
+      function sayHello(){
+        alert("Hello3");
+      }*/
+
+      navbarItem2.addEventListener("mouseover", ()=>)
+
+    </script>
   </body>
 </html>
