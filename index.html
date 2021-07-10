@@ -23,7 +23,7 @@
           id="logo"
         />
         <ul class="nav__links">
-          <li class="nav__item" onclick = "sayHello()">
+          <li class="nav__item">
             <a class="nav__link" href="#section--1">Features</a>
           </li>
           <li class="nav__item">
@@ -381,8 +381,39 @@
         alert("Hello3");
       }*/
 
-      navbarItem2.addEventListener("mouseover", ()=>)
+      /* navbarItem2.addEventListener("mouseover", ()=> alert("Over Me!"))
+      navbarItem2.addEventListener("mouseover", ()=> {
+        navbarItem2.textContent = "Over me!"
+      });
+      navbarItem2.addEventListener("mouseout", ()=> {
+        navbarItem2.textContent = "Operations!"
+      });*/
 
+      /*const randomNumber = () => {
+        return Math.floor(Math.random() * 255);
+      }
+      const randomColor = () => {
+        return `rgb(${randomNumber()},${randomNumber()},${randomNumber()})`;
+      }
+      const changeColor = () => {
+        navbarItem3.style.borderRadius = "10px";
+        navbarItem3.style.backgroundColor = randomColor();
+        console.log(randomColor());
+      }
+      navbarItem3.addEventListener("click", changeColor)
+      navbarItem3.removeEventListener("click", changeColor);*/
+
+      /*document.querySelectorAll(".nav__link").forEach(
+        function(elements){
+          elements.addEventListener("click", function(element){
+            element.preventDefault();
+            const sectionId = this.getAttribute("href");
+            document.querySelector(sectionId).scrollIntoView({
+              behavior : "smooth"
+            });
+          });
+        });
+      console.log(document.querySelectorAll(".nav__link"));*/
     </script>
   </body>
 </html>
